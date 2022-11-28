@@ -2,6 +2,37 @@
 	"templates": [
 	  {
 		"keywords": [
+		  "dice roll",
+		  "roll a die",
+		  "on a 1",
+		  "on a one",
+		  "on a 2",
+		  "on a two",
+		  "on a 3",
+		  "on a three",
+		  "on a 4",
+		  "on a four",
+		  "on a 5",
+	      "on a five",
+		  "on a 6",
+		  "on a six"
+		],
+		"responses": [
+		  "1",
+		  "2",
+		  "3",
+		  "4",
+		  "5",
+		  "6",
+		  "20"
+		],
+		"frequency": [
+		  1.0
+		],
+		"special": null
+	  },
+	  {
+		"keywords": [
 		  "gym",
 		  "sark",
 		  "workout"
@@ -210,7 +241,7 @@
 		  "nope no biz here just a zib oh wait lemme turn that around haha I'm just playin guys haha it was the biz haha",
 		  "studying together is just an excuse to gossip about how cool the my creator are",
 		  "its called groupme not bizme fuck off",
-		  "Mike's coding was once merged with a virtual manifestation of william bizzell. im still recovering :'(",
+		  "Mike Glennon's coding was once merged with a virtual manifestation of william bizzell. im still recovering :'(",
 		  "biz?"
 		],
 		"frequency": [

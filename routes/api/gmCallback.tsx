@@ -8,6 +8,7 @@ import { specialRoll } from "./roll.tsx";
 
 // Change this to your bot's name (exactly) if you're making a copy
 export const BOT_NAME = "Mike Glennon";
+export const BOT_ID   = "6782f64f792287be7584af2bb2";
 
 export interface groupme_group {
     id: number;
@@ -31,14 +32,9 @@ export const handler: Handlers = {
         if (reqBody.name !== BOT_NAME) {
             const message = getResponseForMessage(reqBody);
             if (message) {
-                const botID = await getBotIdForMessage(reqBody);
-                // Post to groupme
-                if (!botID) {
-                    throw new Error("No Bot ID provided")
-                }
                 // Go ahead and post message to group using provided bot ID
                 try {
-                    await postBotMessage(message, botID);
+                    await postBotMessage(message, BOT_ID);
                 } catch (error) {
                     throw new Error("Failure while trying to post to GroupMe")
                 }
