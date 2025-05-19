@@ -7,8 +7,8 @@ import { getRandomProbability } from "../../utils/random.ts";
 import { specialRoll } from "./roll.tsx";
 
 // Change this to your bot's name (exactly) if you're making a copy
-export const BOT_NAME = "Mike Glennon";
-export const BOT_ID   = "6782f64f792287be7584af2bb2";
+export const BOT_NAME = "The Almighty Dice";
+export const BOT_ID   = "f1c39bc9a6b644d672e9d3b365";
 
 export interface groupme_group {
     id: number;
